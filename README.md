@@ -1,8 +1,8 @@
 # Báo cáo Bài 1: Khởi tạo Local Repository và Cấu hình Danh tính
 
 ## Thông tin học viên
-- **Họ tên:** Nguyen Van A
-- **Email:** nguyenvana@student.rikkei.edu.vn
+- **Họ tên:** ngotrungchien
+- **Email:** ngotrungchien232@gmail.com
 - **Ngày thực hiện:** 2026-10-03
 
 ---
@@ -34,8 +34,8 @@ Initialized empty Git repository in D:/RIKKEI/HOC_KI_4/.../SESSION04_BAI1/.git/
 ### Bước 2: Cấu hình danh tính cục bộ (--local)
 
 ```bash
-git config --local user.name "Nguyen Van A"
-git config --local user.email "nguyenvana@student.rikkei.edu.vn"
+git config --local user.name "ngotrungchien"
+git config --local user.email "ngotrungchien232@gmail.com"
 ```
 
 > **Lưu ý:** Sử dụng tùy chọn `--local` để cấu hình chỉ áp dụng cho repository này, không ảnh hưởng đến cấu hình toàn cục của máy tính.
@@ -110,7 +110,7 @@ git config --local user.name
 
 **Kết quả:**
 ```
-Nguyen Van A
+ngotrungchien
 ```
 
 ---
@@ -123,7 +123,7 @@ git config --local user.email
 
 **Kết quả:**
 ```
-nguyenvana@student.rikkei.edu.vn
+ngotrungchien232@gmail.com
 ```
 
 ---
@@ -155,8 +155,8 @@ core.bare=false
 core.logallrefupdates=true
 core.symlinks=false
 core.ignorecase=true
-user.name=Nguyen Van A
-user.email=nguyenvana@student.rikkei.edu.vn
+user.name=ngotrungchien
+user.email=ngotrungchien232@gmail.com
 ```
 
 ---
