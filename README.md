@@ -45,18 +45,20 @@ git config --local user.email "ngotrungchien232@gmail.com"
 ### Bước 3: Tạo tệp tin mới
 
 ```bash
-# Tạo file main.py với nội dung khởi tạo dự án
+# Tạo file Main.java với nội dung khởi tạo dự án
 ```
 
-Nội dung file `main.py`:
-```python
-# main.py - Khởi tạo dự án phần mềm mới
-def main():
-    print("Chào mừng đến với dự án phần mềm!")
-    print("Repository đã được khởi tạo thành công với Git.")
+Nội dung file `Main.java`:
+```java
+// Main.java - Khởi tạo dự án phần mềm mới
+// Tác giả: ngotrungchien
 
-if __name__ == "__main__":
-    main()
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Chào mừng đến với dự án phần mềm!");
+        System.out.println("Repository đã được khởi tạo thành công với Git.");
+    }
+}
 ```
 
 ---
@@ -64,7 +66,7 @@ if __name__ == "__main__":
 ### Bước 4: Đưa file vào Staging Area (git add)
 
 ```bash
-git add main.py
+git add Main.java
 ```
 
 **Kiểm tra trạng thái:**
@@ -80,7 +82,7 @@ No commits yet
 
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
-	new file:   main.py
+	new file:   Main.java
 ```
 
 ---
@@ -88,14 +90,14 @@ Changes to be committed:
 ### Bước 5: Thực hiện Commit đầu tiên
 
 ```bash
-git commit -m "feat: Khoi tao du an va them file main.py"
+git commit -m "feat: Khoi tao du an va them file Main.java"
 ```
 
 **Kết quả:**
 ```
-[master (root-commit) f2649c2] feat: Khoi tao du an va them file main.py
+[master (root-commit) f2649c2] feat: Khoi tao du an va them file Main.java
  1 file changed, 10 insertions(+)
- create mode 100644 main.py
+ create mode 100644 Main.java
 ```
 
 ---
@@ -136,7 +138,7 @@ git log --oneline
 
 **Kết quả:**
 ```
-f2649c2 feat: Khoi tao du an va them file main.py
+f2649c2 feat: Khoi tao du an va them file Main.java
 ```
 
 ---
@@ -168,7 +170,7 @@ user.email=ngotrungchien232@gmail.com
 | Khởi tạo Git repository (`git init`) | ✅ Hoàn thành |
 | Cấu hình `user.name` với `--local` | ✅ Hoàn thành |
 | Cấu hình `user.email` với `--local` | ✅ Hoàn thành |
-| Tạo file mới (`main.py`) | ✅ Hoàn thành |
+| Tạo file mới (`Main.java`) | ✅ Hoàn thành |
 | Đưa file vào Staging Area (`git add`) | ✅ Hoàn thành |
 | Thực hiện commit đầu tiên (`git commit`) | ✅ Hoàn thành |
 | Kiểm tra lịch sử commit (`git log --oneline`) | ✅ Hoàn thành |
